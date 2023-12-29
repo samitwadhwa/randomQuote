@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background: linear-gradient(to left, #5E2AB2
+    , #161E6C);
+}
+.navbarTypes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbarTypes div h1,a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.generateQuote{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #D05252;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #D05252;
+}
+.generateQuote h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.generateQuote button{
+    background-color: #D05252;
+    border: 1px solid #D05252;
+    cursor: pointer;
+}
+.styleButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styleButton div h4{
+    color: white;
+}
+#demo-multiple-name{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.nextQuoteButton button{
+    width: 240px;
+    height: 45px;
+    background-color: #009C51;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    border: 1px solid #009C51;
+    cursor: pointer;
+}
+.outerBookmark{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
